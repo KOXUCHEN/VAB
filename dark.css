@@ -1,0 +1,9 @@
+:root{color-scheme:dark;--bg:#080a0c;--ink:#e5ebef;--muted:#929ea9;--line:#252c32;--teal:#52d3b7;--purple:#ac98f3}
+header{background:#0c0f12}.mark{background:#176754;color:#e5fff6}.panel{background:#11161a;box-shadow:0 3px 12px #0003}
+select,input[type=number],input[type=search]{background:#0c1115;border-color:#35404a;color:var(--ink)}
+select:focus,input:focus{border-color:#52d3b7;box-shadow:0 0 0 3px #52d3b720}input::placeholder{color:#82919e}
+.notice{background:#12221f;color:#a8beb8}.badge{background:#17362d;color:#75dec4}.primary{background:#216d5b;color:#f0fff9}.primary:hover{background:#2c856e}
+th{background:#171e24;color:#a6b2bd}td{border-bottom-color:#252c32}tbody tr:hover{background:#172722}tbody tr.selected{background:#1b332c}
+.pos{color:#70d3b9}.neg{color:#ee989f}.pill{background:#26313a;color:#bcc6d0}.pill.inside{background:#1b3e32;color:#89dfc4}.short-tag{color:#deb775}
+fieldset:disabled{opacity:.58}.saved,footer{color:#8c99a4}#error{background:#301b1c;border-color:#67363b;color:#f2b1b1}
+.chart svg line[stroke="#edf0f4"]{stroke:#2a323a}.chart svg text{fill:#a0adba}

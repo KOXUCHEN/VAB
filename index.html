@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VAB · 核心股池</title><link rel="stylesheet" href="./style.css"></head>
-<body><header><div class="brand"><span class="mark">V</span><div><strong>VAB</strong><small>股票篩選研究台</small></div></div><div class="status"><span></span>資料快照 · 唯讀</div></header>
-<main><section class="intro"><div><div class="eyebrow">CORE UNIVERSE / 核心股票池</div><h1>讓價格，回到你的條件。</h1><p>S&P 500 · Nasdaq-100 · Dow Jones　／　日 K × OHLC4</p></div><div class="datebox"><label for="dataset">日 K 截止交易日</label><select id="dataset" aria-label="資料日期"></select><button id="refresh" class="text-btn">↻ 重新讀取網站快照</button></div></section>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VAB · 核心股池</title><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./dark.css"></head>
+<body><header><div class="brand"><span class="mark">V</span><div><strong>VAB</strong><small>股票篩選研究台</small></div></div></header>
+<main><section class="intro"><div><div class="eyebrow">CORE UNIVERSE / 核心股票池</div><h1>讓價格，回到你的條件。</h1></div><div class="datebox"><label for="dataset">日 K 截止交易日</label><select id="dataset" aria-label="資料日期"></select><button id="refresh" class="text-btn">↻ 重新讀取網站快照</button></div></section>
 <div id="error" role="alert" hidden></div><div class="notice">比較價格使用<span id="priceDate">—</span>的<strong>收盤價</strong>，不是即時行情。資料需由本機更新後重新發布；調整條件只在你的瀏覽器運算。</div>
 <div class="workspace"><aside class="panel controls"><div class="section-title"><h2>篩選條件</h2><button id="reset" class="text-btn">重設</button></div>
 <label class="label" for="mode">價格條件</label><select id="mode"><option value="between">在兩條 VWAP 之間</option><option value="near">在 VWAP 附近</option><option value="or">兩線之間「或」附近</option><option value="and">兩線之間「且」附近</option><option value="legacy">原始策略（0.8%／1.5%）</option></select>
